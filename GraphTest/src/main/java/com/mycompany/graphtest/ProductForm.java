@@ -92,7 +92,7 @@ public class ProductForm extends JFrame{
 
         showProductTable(products); // ➡️ buka panel baru
     } catch (Exception e) {
-        outputArea.setText("❌ Error: " + e.getMessage());
+        outputArea.setText("Error: " + e.getMessage());
     }
 }
     
