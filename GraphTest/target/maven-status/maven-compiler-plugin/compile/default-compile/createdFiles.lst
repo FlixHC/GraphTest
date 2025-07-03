@@ -1,0 +1,6 @@
+com\mycompany\graphtest\ProductForm.class
+com\mycompany\graphtest\GraphQLConfig.class
+com\mycompany\graphtest\Product.class
+com\mycompany\graphtest\ProductForm$GraphQLQuery.class
+com\mycompany\graphtest\GraphTest.class
+com\mycompany\graphtest\ProductRepository.class
