@@ -184,7 +184,7 @@ public class ProductForm extends JFrame{
                 String query = String.format("mutation { deleteProduct(id: %s) }", id);
                 String json = new Gson().toJson(new GraphQLQuery(query));
                 String response = sendGraphQLRequest(json);
-                outputArea.setText("🗑 Produk dihapus!\n" + response);
+                outputArea.setText("Produk dihapus!\n" + response);
                 frame.dispose();
                 ambilSemuaProduk();
             } catch (Exception ex) {
